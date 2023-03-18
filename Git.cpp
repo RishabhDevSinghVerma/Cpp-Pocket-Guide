@@ -18,3 +18,40 @@ We have more control over system resources and memory management.C++ language is
   - the procedural language tradition,represented by C;
   - the Object Oriented language tradition ,represented by the class enhancements C++ adds to C;
   - Generic programming,supported by C++ templates
+
+Procedural Programming Language : A procedural language is a sort of computer programming language that has a set of functions, instructions and 
+                                  statements that must be executed in a certain order to accomplish a job or program. 
+
+                                                                          OR 
+
+Procedural Programming Language as per name mean emphasis procedurure. Procedure means step by step tasks which we want to perform.
+In high level language this procedure called Function .Function is group of task which perform particular task.In this type of language we divide functions into smaller parts.
+
+
+Characterstics of Procedural Prigramming Language:-
+
+1)Its emphasis on algorithm(doing task) rather than data.
+2)Large programs are divide into samaller parts called functions.
+3)Its follows Top down approachs.Ex-C,Fortan,Cobol etc.
+
+ Top Down Approach:-
+
+                         ______________
+                        |     Main     |      Main Program
+                        |______________|
+                               /\
+                              /  \
+                             /    \
+                            /      \ 
+                 ______________    ______________
+                |   Function1  |  |   Function2  |     Modules 
+                |______________|  |______________|
+                       /\                /\
+                      /  \              /  \
+                     /    \            /    \
+                    /      \          /      \
+                _____       _____  _____     _____
+               |  F  |     |  F  ||  F  |   |  F  |        SubModules
+               |_____|     |_____||_____|   |_____|   
+
+The basic task of a top-down approach is to divide the problem into tasks and then divide tasks into smaller sub-tasks and so on. In this approach, first we develop the main module and then the next level modules are developed. This procedure is continued until all the modules are developed.
