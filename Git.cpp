@@ -8,7 +8,7 @@
                                         \▓▓    ▓▓   \▓▓      \▓▓   
                                          \▓▓▓▓▓▓                   
                             
- About C++ 
+◙  𝐀𝐛𝐨𝐮𝐭 𝐂++
 
 C++ is a high-level programming language created by Danish computer scientist Bjarne Stroustrup. 
 First released in 1985 as an extension of the C programming language.We make fast program using c++.
@@ -19,7 +19,7 @@ We have more control over system resources and memory management.C++ language is
   - the Object Oriented language tradition ,represented by the class enhancements C++ adds to C;
   - Generic programming,supported by C++ templates
 
-Procedural Programming Language : A procedural language is a sort of computer programming language that has a set of functions, instructions and 
+◙  𝐏𝐫𝐨𝐜𝐞𝐝𝐮𝐫𝐚𝐥 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: A procedural language is a sort of computer programming language that has a set of functions, instructions and 
                                   statements that must be executed in a certain order to accomplish a job or program. 
 
                                                                           OR 
@@ -28,13 +28,13 @@ Procedural Programming Language as per name mean emphasis procedurure. Procedure
 In high level language this procedure called Function .Function is group of task which perform particular task.In this type of language we divide functions into smaller parts.
 
 
-Characterstics of Procedural Prigramming Language:-
+◙  𝐂𝐡𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐬𝐭𝐢𝐜𝐬 𝐨𝐟 𝐏𝐫𝐨𝐜𝐞𝐝𝐮𝐫𝐚𝐥 𝐏𝐫𝐢𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞
 
 1)Its emphasis on algorithm(doing task) rather than data.
 2)Large programs are divide into samaller parts called functions.
 3)Its follows Top down approachs.Ex-C,Fortan,Cobol etc.
 
- Top Down Approach:-
+ 𝐓𝐨𝐩 𝐃𝐨𝐰𝐧 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡:-
 
                          ______________
                         |     Main     |      Main Program
