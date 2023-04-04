@@ -71,3 +71,75 @@ The basic task of a top-down approach is to divide the problem into tasks and th
                           |                                                     |
                           |   Output of Code:Welcome To My C++ Repository       |
                           |_____________________________________________________|
+
+◙ 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 :A variable is a container which stores our data. 
+                       or
+            A variable is a name of a memory location.             
+
+𝐒𝐲𝐧𝐭𝐚𝐱 𝐟𝐨𝐫 𝐃𝐞𝐜𝐥𝐚𝐫𝐢𝐧𝐠 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 𝐢𝐧 𝐂++  
+
+Data_type Variable_name=Value
+
+______________________________________________________
+|                                                     |
+|      Example of  Variable Declaration               |
+|                                                     | 
+|      #include<iostream>                             |
+|       using namespace std;                          |
+|                                                     |
+|       int main()                                    |
+|       {                                             |
+|         int num1=2; //Data_type Variable_name=Value |
+|         int num2=3;                                 |
+|                                                     |
+|       cout<<"The Sum of Numbers is:"<<num1+num2;    |
+|       return 0;                                     |
+|       }                                             |
+|                                                     |
+| Output of Code:The Sum of Numbers is:5              |
+|_____________________________________________________|
+                           
+
+◙ 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 𝐒𝐜𝐨𝐩𝐞
+
+What is Scope of Variable??
+
+Scope of a variable is the region in code where the existence of variable is valid
+
+Based on Scope Variable can be classified into two types:-
+1)Local Variable:-Local Variable are declared inside the braces of any funtion and can be accessed only from there.
+2)Global Variable:-Global Variable are declared outside any function and can be accessed from anywhere.
+
+
+◙ 𝐂𝐚𝐧 𝐆𝐥𝐨𝐛𝐚𝐥 𝐚𝐧𝐝 𝐋𝐨𝐜𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 𝐡𝐚𝐯𝐞 𝐬𝐚𝐦𝐞 𝐧𝐚𝐦𝐞 𝐢𝐧 𝐂++??
+
+______________________________________________________
+|                                                     |
+| Example of Local and Global Variable                |
+|                                                     | 
+|      #include<iostream>                             |
+|       using namespace std;                          |
+|       int num1=6;    //Global Variable              |
+|       int main()                                    |
+|       {                                             |
+|         int num1=2;    //Local Variable             |
+|         int num2=3;                                 |
+|                                                     |
+|       cout<<"The Sum of Numbers is:"<<num1+num2;    |
+|       return 0;                                     |
+|       }                                             |
+|                                                     |
+| Output of Code:The Sum of Numbers is:5              |
+|_____________________________________________________|
+
+Explanation Of Code:Within the body of a function, a local variable takes precedence over a global variable with the same name.So thats why output of code is still remain 5.
+
+◙ 𝐑𝐮𝐥𝐞𝐬 𝐭𝐨 𝐃𝐞𝐜𝐥𝐚𝐫𝐞 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞 𝐢𝐧 𝐂++
+
+·Variable names in C++ can range from 1 to 255 characters.
+·All variable names must begin with a letter of the alphabet or an Underscore(_).
+·After the first intial letter,variable names can also contain letters and numbers.
+·Variables names are case sensitive.
+·No Character or Special characters are allowed.
+·You cannot use a C++ keyword as a variable name.
+
