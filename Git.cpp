@@ -143,3 +143,22 @@ Explanation Of Code:Within the body of a function, a local variable takes preced
 ·No Character or Special characters are allowed.
 ·You cannot use a C++ keyword as a variable name.
 
+◙ 𝐃𝐚𝐭𝐚 𝐓𝐲𝐩𝐞𝐬 𝐈𝐧 𝐂++
+
+Data type define the type of data a varible can hold , For Example:An Integer variable can hold integer data.
+Data types in C++ are categorized in three groups:-
+
+                                                   𝐃𝐚𝐭𝐚𝐭𝐲𝐩𝐞𝐬
+                                                      |
+______________________________________________________|___________________________                                    |                                                     |                           |
+Built-in                                             User Defined                 Derived 
+|                                                     |                           |
+|-int (Integer)                                       |-struct(Structure)         |-Array
+|                                                     |                           |
+|-float(Store Decimal Number of Low Precision)        |-union(Union)              |-Function 
+|                                                     |                           |
+|-char(Character)                                     |-enum(Enumerator)          |-Pointer
+|                                                     |
+|-double(Store Decimal Number of High Precision)      |-Class
+|
+|-bool(True/False)
