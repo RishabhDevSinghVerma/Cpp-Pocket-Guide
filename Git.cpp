@@ -162,3 +162,10 @@ Built-in                                             User Defined               
 |-double(Store Decimal Number of High Precision)      |-Class
 |
 |-bool(True/False)
+
+/*Exception:- Exception is any abnormal behaviour,run time error
+
+Exception Handling:-C++ provides a built-in error handling mechanism that is called exception handling.
+
+There are three we use in Exception Handling (try,Catch,throw)
+*/
