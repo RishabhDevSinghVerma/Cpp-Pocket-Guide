@@ -197,26 +197,39 @@ X  Y   X|Y
 1  1    0
 0  0    0
 
-
-#include<iostream>
-
-using namespace std;
-
-int main(){
-    int a=4;                          //   100   Binary Coversition of 4
-    int b=6;                          //   110   Binary Coversition of 6
-                                      //  ______
- cout<<"A & B :"<<(a&b)<<endl;       //[&] 100   And Operation of Both Numbers:4 (Output Printed)
- cout<<"A | B :"<<(a|b)<<endl;       //[|] 110   OR Operation  of Both Numbers:6 (Output Printed) 
- cout<<"A ^ B :"<<(a^b)<<endl;       //[^] 010   XOR Operation of Both Numbers:2 (Output Printed) 
- cout<<"~A :"<<(~a)<<endl;           // Binary Converstion of A is :100
-                                     // Step 1: Compilers Complement the Binary Coversion of Number:011 
-                                     // Then its convert to 1s Complement (1-->0 & 0<--1):100 
-                                     // Then its convert to 2s Complement (1 add to 1s Complement):101 
-                                     //   =>-5(Output Printed) [Negative Output Because in memory starting Bit is One]
-
-                                   
-return 0;
-}
+_______________________________________________________________________________________________________________________
+|                                              Code for Bitwise operator                                               |
+|                                                                                                                      |
+|                                                                                                                      |
+|  #include<iostream>                                                                                                  |
+|                                                                                                                      |
+| using namespace std;                                                                                                 |
+|                                                                                                                      |
+| int main()                                                                                                           |
+|  {                                                                                                                   |
+|    int a=4;                          //   100   Binary Coversition of 4                                              |
+|    int b=6;                          //   110   Binary Coversition of 6                                              |
+|                                      //  ______                                                                      |
+| cout<<"A & B :"<<(a&b)<<endl;       //[&] 100   And Operation of Both Numbers:4 (Output Printed)                     |
+| cout<<"A | B :"<<(a|b)<<endl;       //[|] 110   OR Operation  of Both Numbers:6 (Output Printed)                     |
+| cout<<"A ^ B :"<<(a^b)<<endl;       //[^] 010   XOR Operation of Both Numbers:2 (Output Printed)                     | 
+| cout<<"~A :"<<(~a)<<endl;           // Binary Converstion of A is :100                                               |
+|                                     // Step 1: Compilers Complement the Binary Coversion of Number:011               |  
+|                                     // Then its convert to 1s Complement (1-->0 & 0<--1):100                         |
+|                                     // Then its convert to 2s Complement (1 add to 1s Complement):101                |
+|                                     // =>-5(Output Printed) [Negative Output Because in memory starting Bit is One]  |
+|                                                                                                                      |
+|                                                                                                                      |
+| return 0;                                                                                                            |
+| }                                                                                                                    |
+|                                                                                                                      |
+|                                                                                                                      |
+|     Output of Code:A & B :4                                                                                          | 
+|                    A | B :6                                                                                          | 
+|                    A ^ B :2                                                                                          | 
+|                       ~A :-5                                                                                         | 
+|                                                                                                                      | 
+|                                                                                                                      |
+|______________________________________________________________________________________________________________________|
 
 
