@@ -163,87 +163,60 @@ Built-in                                             User Defined               
 |
 |-bool(True/False)
 
-/*Exception:- Exception is any abnormal behaviour,run time error
+◙ 𝐁𝐢𝐭𝐰𝐢𝐬𝐞 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫
 
-Exception Handling:-C++ provides a built-in error handling mechanism that is called exception handling.
+(Truth Table Of And Operator [&] ) 
 
-There are three we use in Exception Handling (try,Catch,throw)
-*/
+X  Y   X&Y
+0  1    0
+1  0    0
+1  1    1
+0  0    0
+
+(Truth Table Of OR Operator [|] ) 
+
+X  Y   X|Y
+0  1    1
+1  0    1
+1  1    1
+0  0    0
+
+(Truth Table Of  ~ Not Operator [~] ) 
+
+X     ~X
+0      1
+1      0
 
 
-//Code for Linear Search
 
-#include <iostream>
+(Truth Table Of XOR Operator [|] ) 
+
+X  Y   X|Y
+0  1    1
+1  0    1
+1  1    0
+0  0    0
+
+
+#include<iostream>
+
 using namespace std;
 
-int linear_search(int arr[], int size, int key)
-{
-    for (int i = 0; i < size; i++)
-    {
-        if (arr[i] == key)
-        {
-            cout << "The Index of the Given array is:" << i << endl;
-      
-        }
+int main(){
+    int a=4;                          //   100   Binary Coversition of 4
+    int b=6;                          //   110   Binary Coversition of 6
+                                      //  ______
+ cout<<"A & B :"<<(a&b)<<endl;       //[&] 100   And Operation of Both Numbers:4 (Output Printed)
+ cout<<"A | B :"<<(a|b)<<endl;       //[|] 110   OR Operation  of Both Numbers:6 (Output Printed) 
+ cout<<"A ^ B :"<<(a^b)<<endl;       //[^] 010   XOR Operation of Both Numbers:2 (Output Printed) 
+ cout<<"~A :"<<(~a)<<endl;           // Binary Converstion of A is :100
+                                     // Step 1: Compilers Complement the Binary Coversion of Number:011 
+                                     // Then its convert to 1s Complement (1-->0 & 0<--1):100 
+                                     // Then its convert to 2s Complement (1 add to 1s Complement):101 
+                                     //   =>-5(Output Printed) [Negative Output Because in memory starting Bit is One]
 
-        else
-    {
-        cout << -1;
-        break;
-    }
-    }
-    
+                                   
+return 0;
 }
 
-int main()
-{
-    int size, key;
-    cout << "Enter the Size of Array:";
-    cin >> size;
 
-    cout << "Enter the Key Which you want to search:";
-    cin >> key;
-
-    int arr[size];
-    cout << "Enter the Elements of Array:";
-    for (int i = 0; i < size; i++)
-    {
-        cin >> arr[i];
-    }
-
-    linear_search(arr, size, key);
-
-    return 0;
-}
-
-//Code for Sum of Arrays
-
-#include <iostream>
-using namespace std;
-
-int sum(int arr[], int size, int add)
-{
-    for (int i = 0; i < size; i++)
-    {
-        add += arr[i];
-    }
-
-    return add;
-}
-
-int main()
-{
-    int size, add;
-    add = 0;
-    cout << "Enter the Size of Array:";
-    cin >> size;
-    int arr[size];
-    cout << "Enter the Elements of Array:";
-    for (int i = 0; i < size; i++)
-    {
-        cin >> arr[i];
-    }
-    cout << sum(arr, size, add);
-
-    return 0;
-}
